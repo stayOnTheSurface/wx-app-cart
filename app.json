@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/index",
+    "pages/event/event"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "222",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#000"
+    
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "backgroundColor":"#fff",
+    "selectedColor":"#d81e06",
+    "color":"#515151",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"assets/home.png",
+        "selectedIconPath":"assets/home-active.png"
+      },
+      {
+        "pagePath": "pages/login/index",
+        "text": "登录"
+      },
+      {
+        "pagePath": "pages/event/event",
+        "text": "活动",
+        "iconPath":"assets/event.png",
+        "selectedIconPath":"assets/event-active.png"
+      }
+    ]
+  }
+}

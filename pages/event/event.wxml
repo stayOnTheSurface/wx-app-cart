@@ -1,0 +1,5 @@
+<view class="viewcontainer">
+    <view class="nav">1</view>
+    <view class="nav">2</view>
+    <view class="nav">3</view>
+</view>
